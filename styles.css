@@ -6,6 +6,7 @@ body {
     margin: 0;
     overflow: hidden;
     box-sizing: border-box;
+    background-color: rgb(240, 240, 240);
 }
 
 ul  {
@@ -49,6 +50,26 @@ a {
 
 #header h1{
     text-align: center;
+}
+
+#form-section *{
+    width: fit-content;
+    margin: 0 auto;
+    display: block;
+}
+
+#email{
+    width: 250px;
+    padding: 0.25rem;
+    margin-bottom: 17px;
+}
+
+#submit{
+    font-weight: bold;
+    width: 150px;
+    height: 25px;
+    border: none;
+    background-color: orange;
 }
 
 @media (max-width: 1000px) {
