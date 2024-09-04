@@ -5,6 +5,7 @@
 body {
     margin: 0;
     overflow: hidden;
+    box-sizing: border-box;
 }
 
 ul  {
@@ -25,9 +26,9 @@ a {
 
 #nav-bar {
     width: 100%;
-    height: 60px;
+    height: 70px;
     background-color: rgb(240, 240, 240);
-    position: sticky;
+    position: fixed;
     overflow: hidden;
     top: 0;
     margin-bottom: 1rem;
@@ -35,7 +36,19 @@ a {
 
 #header-img{
     width: 300px;
-    padding-left: 3vw;
+    padding-left: 1.5rem;
+    padding-top: 0.5rem;
+}
+
+#header{
+    margin: 0 auto;
+    margin-top: 85px;
+    font-size: 12px;
+    width: 500px;
+}
+
+#header h1{
+    text-align: center;
 }
 
 @media (max-width: 1000px) {
