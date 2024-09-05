@@ -71,6 +71,16 @@ a {
     background-color: orange;
 }
 
+#video-section{
+    width: 45%;
+    margin: 5rem auto;
+}
+
+#video{
+    width: 100%;
+    height: 350px;
+}
+
 .features{
     width: 60vw;
     margin: 0 auto;
