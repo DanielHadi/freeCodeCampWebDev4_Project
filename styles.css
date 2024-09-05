@@ -4,7 +4,6 @@
 
 body {
     margin: 0;
-    overflow: hidden;
     box-sizing: border-box;
     background-color: rgb(240, 240, 240);
 }
@@ -70,6 +69,20 @@ a {
     height: 25px;
     border: none;
     background-color: orange;
+}
+
+.features{
+    width: 60vw;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.features:first-of-type{
+    margin-top: 7rem;
+}
+
+.features h2{
+    font-size: 20px;
 }
 
 @media (max-width: 1000px) {
