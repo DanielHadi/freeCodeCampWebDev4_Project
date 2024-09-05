@@ -109,6 +109,38 @@ a {
     margin: 0 2rem;
 }
 
+.plan > p {
+    text-align: center;
+}
+
+.plan-title{
+    display: block;
+    width: 100%;
+    background-color: rgb(219, 219, 219);
+    text-align: center;
+    padding: 1rem 0;
+    text-transform: uppercase;
+}
+
+.price{
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.btn{
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.btn button{
+    width: 75px;
+    height: 35px;
+    text-transform: uppercase;
+    border: none;
+    background-color: orange;
+}
+
 @media only screen and (max-width: 970px) {
     #plan-section{
         flex-direction: column;
