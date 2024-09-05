@@ -24,6 +24,32 @@ a {
     color: black;
 }
 
+footer{
+    position: relative;
+    width: 970px;
+    height: 50px;
+    background-color: rgb(218, 218, 218);
+    margin: 0 auto;
+}
+
+.last-content{
+    position: absolute;
+    margin: unset;
+    right: 2vw;
+}
+
+footer .last-content li{
+    margin: 0.25vw 1vw;
+}
+
+span{
+    position: absolute;
+    color: #444;
+    right: 2vw;
+    bottom: 5px;
+    font-size: smaller;
+}
+
 #nav-bar {
     width: 100vw;
     height: 70px;
@@ -142,6 +168,9 @@ a {
 }
 
 @media only screen and (max-width: 970px) {
+    footer{
+        width: 100vw;
+    }
     #plan-section{
         flex-direction: column;
     }
@@ -151,6 +180,12 @@ a {
 }
 
 @media only screen and (max-width: 745px) {
+    .last-content {
+        display: flex;
+        position: absolute;
+        margin: unset;
+        right: 2vw;
+    }
     ul  {
         width: 100%;
         display: block;
